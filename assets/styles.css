@@ -1,0 +1,71 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #1F1F1F;
+    font-family: "Ubuntu";
+}
+
+nav {
+    display: inline-flex;
+    float: right;
+    justify-content: space-between;
+    align-items: center;
+    /*padding-left: 50em;*/
+}
+
+ul {
+    color: whitesmoke;
+}
+
+ul li{
+    display: inline-flex;
+    margin-right: 20px;
+}
+
+.github:hover {
+    color: #6e5494;
+}
+
+.linkedin:hover {
+    color: #4078c0;
+}
+
+button {
+    padding: 8px 16px 8px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    background: #333333;
+}
+
+button:hover {
+    padding: 8px 16px 8px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    background: #454545;
+}
+
+body {
+    padding: 5vh 10vw;
+    margin: 8px;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 1.5em;
+    font-weight: 300;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1 {
+    color: whitesmoke;
+}
