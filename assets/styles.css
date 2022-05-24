@@ -10,10 +10,14 @@
 }
 
 nav {
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
     float: right;
     justify-content: space-between;
     align-items: center;
+    max-height: 40px;
+
+
     /*padding-left: 50em;*/
 }
 
@@ -23,7 +27,7 @@ ul {
 
 ul li{
     display: inline-flex;
-    padding: 10px;
+    padding: 3px;
 }
 
 a {
@@ -32,16 +36,22 @@ a {
     color: inherit;
 }
 
-.icon:hover {
-    font-size: 64px;
+.icon {
+    font-size: 32px;
+    transition: linear 0.2s;
 }
 
-.github:hover {
+#linkedIn:hover {
+    color: #4078c0;
+
+}
+
+#github:hover {
     color: #6e5494;
 }
 
-.linkedin:hover {
-    color: #4078c0;
+#email:hover {
+    color: #6cc644;
 }
 
 button {
@@ -49,7 +59,7 @@ button {
     color: whitesmoke;
     border: none;
     border-radius: 10px;
-    background: #333333;
+    /*background: #333333;*/
 }
 
 button:hover {
@@ -57,7 +67,8 @@ button:hover {
     color: whitesmoke;
     border: none;
     border-radius: 10px;
-    background: #454545;
+    /*background: #454545;*/
+    cursor: pointer;
 }
 
 body {
