@@ -23,7 +23,17 @@ ul {
 
 ul li{
     display: inline-flex;
-    margin-right: 20px;
+    padding: 10px;
+}
+
+a {
+    display: inherit;
+    /*padding: 10px 10px 10px 10px;*/
+    color: inherit;
+}
+
+.icon:hover {
+    font-size: 64px;
 }
 
 .github:hover {
